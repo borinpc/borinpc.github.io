@@ -26,3 +26,8 @@ main.legal p,main.legal li{color:#ddd3ee}
 .volver{display:inline-block;margin-bottom:12px}
 footer{margin-top:40px;text-align:center;color:var(--suave);font-size:14px}
 footer a{margin:0 8px}
+.twitch-cta{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:center;margin:0 0 18px;padding:16px 20px;border-radius:16px;
+  background:#9146ff;color:#fff;text-decoration:none;font-weight:800;font-size:18px;box-shadow:0 8px 28px rgba(145,70,255,.45);transition:transform .15s,box-shadow .15s}
+.twitch-cta svg{width:26px;height:26px;flex:none}
+.twitch-cta .h{font-weight:600;font-size:14px;opacity:.85}
+.twitch-cta:hover{transform:translateY(-2px);box-shadow:0 12px 34px rgba(145,70,255,.6)}
